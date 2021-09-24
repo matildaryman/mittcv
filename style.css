@@ -1,0 +1,54 @@
+body{
+    background-image: url("/background2.jpg");
+    font-family: 'Bebas Neue', cursive;
+}
+
+pre{
+    font-family: 'Indie Flower', cursive;    
+}
+
+h1{
+    text-align: center; font-size: 300%; color: black;
+}
+
+h2{
+    text-align: center; font-size: 200%; color: black;
+}
+
+h3{
+    text-align: center; color: black;
+}
+
+a{
+    text-align: center; color: black;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    border: 1px solid black;
+    
+}
+
+.aboutMe{
+    color: black;
+    text-align: center;
+}
+
+.container{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    column-gap: 20px;
+    
+}
+
+.item{
+    align-self: center;
+}
